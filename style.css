@@ -1,0 +1,163 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5dc; 
+    margin: 20px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative; 
+}
+
+.logoAlura {
+    width: 140px; 
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 2000px;
+    background-color: #beffcc;
+    box-shadow: 0 0 10px rgba(247, 175, 42, 0.1);
+    padding: 0px; 
+    border-radius: 8px;
+}
+
+section {
+    width: 100%; 
+    position: relative;
+    left: 10%; 
+    height: 100vh; 
+
+
+
+}
+
+textarea, .output-box {
+    width: 70%; 
+    height: 90vh; 
+    margin: 10px 0;
+    padding: 95px; 
+    box-sizing: border-box; 
+    font-size: 50px; 
+    resize: none;
+
+}
+
+
+
+.informacao {
+    font-size: 3.2em; /* Aumenta o tamanho do texto */
+    padding: 0px; /* Aumenta o espaço interno da div */
+    
+    /* Ajuste da posição */
+    position: relative; /* Torna a posição ajustável */
+    bottom: 500px; /* Ajusta a posição verticalmente */
+    left: 730px; /* Ajusta a posição horizontalmente */
+
+    /* Outras opções de ajuste */
+    width: 12px; /* Ajusta a largura da div */
+    height: auto; /* Ajusta a altura da div automaticamente */
+    
+    display: flex; /* Alinha o texto e a imagem na mesma linha */
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+    gap: 0px; /* Espaçamento entre o texto e a imagem */
+}
+
+.botoes {
+    position: absolute; 
+    top: 95%; 
+    right: 12%; 
+    transform: translate(-50%, -50%); 
+    display: flex; 
+    justify-content: center; 
+    gap: 250px; 
+}
+
+.btn-encriptar, .btn-desencriptar {
+    padding: 25px 25px; 
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    
+}
+
+.btn-encriptar {
+    background-color: #6b4f4f;
+    color: white;
+}
+
+.btn-desencriptar {
+    background-color: #c19a6b;
+    color: white;
+}
+
+
+.btn-copiar {
+    background-color: #333;
+    color: white;
+    position: relative;
+}
+
+.boneco {
+    width: 50%; 
+    position: relative;
+    bottom: 850px;
+    left: 50px;
+}
+
+
+.titulo {
+    position: absolute; 
+    top: 59%; 
+    left: 45%;
+    transform: translate(-50%, -50%); 
+    display: flex; 
+    justify-content: center; 
+    gap: 250px; 
+    font-size: 40px
+}
+
+.semi-titulo {
+    
+        position: absolute;
+        top: 69%; 
+        left: 45%; 
+        transform: translate(-50%, -50%); 
+        display: flex; 
+        justify-content: center; 
+        gap: 250px; 
+        font-size: 30px
+    
+}
+
+.btn-copiar {
+
+    position: absolute; 
+    top: 45%; 
+    right: 99%;
+    transform: translate(-50%, -50%); 
+    display: flex; 
+    justify-content: center; 
+    gap: 250px;
+    font-size: 50px;
+    background-color: #6b4f4f;
+    color: #c19a6b
+
+}
+
+.exclamacao {
+    width: 20%;
+}

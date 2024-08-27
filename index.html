@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt.br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptador</title>
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <header>
+        <img class="logoAlura" src="/assets/Logo alura.png" alt="Logo da Alura">
+
+    </header>
+
+      <main>
+          <section>
+            <textarea class="texto" cols="41" rows="4" placeholder="Digite seu texto"></textarea>
+
+
+            <div class="botoes">
+              <button class="btn-encriptar" onclick ="btnEncriptar()">Criptografar</button>
+              <button class="btn-desencriptar" onclick ="btnDesencriptar()">Descriptografar</button>
+            </div> 
+          </section>
+
+          <section class="texto-inicial">
+            <textarea class="mensagem" cols="20" rows="10"></textarea>
+        
+            <div class="instrucoes">
+              <img class="boneco" src="/assets/Pessoa.png" alt="Boneco">
+              <h2 class="titulo">Nenhuma mensagem encontrada</h2>
+              <p class="semi-titulo">Digite um texto que você deseja criptografar ou descriptografar.</p>
+          </div>
+
+            <button class="btn-copiar" onclick ="btnCopiar()">Copiar</button>
+          </section>
+        </main>
+</body>
